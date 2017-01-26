@@ -6,7 +6,7 @@ public class BrandService {
 
 	private String brand;
 	private String serviceType,city;
-	
+//adding comment to test push	
 	public String getCity() {
 		return city;
 	}
