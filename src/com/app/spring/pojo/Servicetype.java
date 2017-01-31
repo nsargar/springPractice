@@ -27,7 +27,7 @@ public class Servicetype implements Serializable {
 
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.SEQUENCE)
 	public int getId() {
 		return this.id;
 	}
